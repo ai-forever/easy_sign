@@ -1,0 +1,11 @@
+onnx==1.14.0
+streamlit==1.28.2
+streamlit-webrtc==0.47.1
+einops==0.6.1
+
+# only for mac
+onnxruntime==1.16.0; sys_platform == 'darwin'
+# only linux or windows
+onnxruntime-openvino==1.16; sys_platform != 'darwin'
+# Windows-specific dependency
+openvino==2023.1; sys_platform == 'win32'
