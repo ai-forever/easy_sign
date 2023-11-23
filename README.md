@@ -3,7 +3,8 @@
 Easy_sign is an open source russian sign language recognition project that uses small CPU model for predictions and is designed for easy deployment via Streamlit.
 
 ## About the project
-Easy_sign uses a machine learning model to recognize Russian sign language gestures.
+Easy_sign uses a machine learning model to recognize Russian sign language gestures. 
+The model was trained on ~180,000 examples of Russian sign language gestures. Approximately 20,000 of which are taken from the [Slovo](https://github.com/hukenovs/slovo) dataset.
 The model recognizes 1598 Russian sign language gestures and can process 3-3.5 gestures per second on an Intel(R) Core(TM) i5-6600 CPU @3.30GHz. The list of recognized gestures is available in the file [RSL_class_list.txt](RSL_class_list.txt). 
 
 To learn more about the project - visit the link to our article on [habr](https://habr.com/ru/companies/sberbank/articles/775688/).
