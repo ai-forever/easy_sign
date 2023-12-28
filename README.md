@@ -24,7 +24,16 @@ streamlit run app.py
 
 
 ## Ссылки
-Команда ПИН-КОД выпустила на базе easy_sign тренажёр для изучения РЖЯ. [Статья на хабр](https://habr.com/ru/articles/777700/), [репозиторий](https://github.com/PINCODE-project/RSL-Recognition-API-exe)
+Команда ПИН-КОД выпустила на базе easy_sign тренажёр для изучения РЖЯ. [Статья на хабр](https://habr.com/ru/articles/777700/), [репозиторий](https://github.com/PINCODE-project/RSL-Recognition-API-exe)  
+
+S3D модели, обученные на датасете [Slovo](https://github.com/hukenovs/slovo) для различного количества кадров, подаваемых на вход.  
+
+| Кол-во кадров | Ссылка | Mean accuracy, % |
+|:---------------:|:--------:|:----------------:|
+|       32        |  https://sc.link/l8VTi  |      44.22       |
+|       48        |  https://sc.link/GSojW  |      52.28       |
+|       64        |  https://sc.link/fhLfd  |      55.86       |
+
 
 ## Лицензия
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
