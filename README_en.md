@@ -27,6 +27,14 @@ streamlit run app.py
 ## Links
 The PINCODE team has released a training simulator based on easy_sign to study Russian sign language. [Habr (Russian)](https://habr.com/ru/articles/777700/), [github](https://github.com/PINCODE-project/RSL-Recognition-API-exe)
 
+S3D models trained on the [Slovo](https://github.com/hukenovs/slovo) dataset for different input lengths. Weights: [Hugging Face](https://huggingface.co/maximazzik/easy_sign).
+
+| Frames | Link | Mean accuracy, % |
+|:---------------:|:--------:|:----------------:|
+|       32        |  https://huggingface.co/maximazzik/easy_sign/resolve/main/slovo/S3Dx32x1x1001.onnx  |      44.22       |
+|       48        |  https://huggingface.co/maximazzik/easy_sign/resolve/main/slovo/S3Dx48x1x1001.onnx  |      52.28       |
+|       64        |  https://huggingface.co/maximazzik/easy_sign/resolve/main/slovo/S3Dx64x1x1001.onnx  |      55.86       |
+
 
  ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under the <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
