@@ -26,13 +26,13 @@ streamlit run app.py
 ## Ссылки
 Команда ПИН-КОД выпустила на базе easy_sign тренажёр для изучения РЖЯ. [Статья на хабр](https://habr.com/ru/articles/777700/), [репозиторий](https://github.com/PINCODE-project/RSL-Recognition-API-exe)  
 
-S3D модели, обученные на датасете [Slovo](https://github.com/hukenovs/slovo) для различного количества кадров, подаваемых на вход.  
+S3D модели, обученные на датасете [Slovo](https://github.com/hukenovs/slovo) для различного количества кадров, подаваемых на вход. Веса: [Hugging Face](https://huggingface.co/maximazzik/easy_sign).
 
 | Кол-во кадров | Ссылка | Mean accuracy, % |
 |:---------------:|:--------:|:----------------:|
-|       32        |  https://sc.link/l8VTi  |      44.22       |
-|       48        |  https://sc.link/GSojW  |      52.28       |
-|       64        |  https://sc.link/fhLfd  |      55.86       |
+|       32        |  https://huggingface.co/maximazzik/easy_sign/resolve/main/slovo/S3Dx32x1x1001.onnx  |      44.22       |
+|       48        |  https://huggingface.co/maximazzik/easy_sign/resolve/main/slovo/S3Dx48x1x1001.onnx  |      52.28       |
+|       64        |  https://huggingface.co/maximazzik/easy_sign/resolve/main/slovo/S3Dx64x1x1001.onnx  |      55.86       |
 
 
 ## Лицензия
